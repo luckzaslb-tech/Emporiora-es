@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Empório Rações — Referência em Paraíba do Sul em rações, medicamentos veterinários, acessórios e produtos para animais. Atendimento especializado, melhores marcas e entrega rápida." />
+  <meta name="keywords" content="rações, pet shop, Paraíba do Sul, animais, medicamentos veterinários, acessórios pet, entrega rápida" />
+  <meta property="og:title" content="Empório Rações — Tudo que seu melhor amigo precisa" />
+  <meta property="og:description" content="Pet shop premium em Paraíba do Sul – RJ. Rações, medicamentos, acessórios e muito mais." />
+  <meta property="og:type" content="website" />
+  <title>Empório Rações — Tudo que seu melhor amigo precisa em um só lugar</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Favicon SVG paw -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23C62828' stroke='none'><ellipse cx='7' cy='5' rx='2.5' ry='3'/><ellipse cx='17' cy='5' rx='2.5' ry='3'/><ellipse cx='3.5' cy='11' rx='2.5' ry='3'/><ellipse cx='20.5' cy='11' rx='2.5' ry='3'/><path d='M12 22c-4 0-7-3-7-6 0-2 2-4 4-5s3-1.5 3-1.5 1 .5 3 1.5 4 3 4 5c0 3-3 6-7 6z'/></svg>" />
+</head>
+<body>
+
+<!-- Custom Cursor -->
+<div id="cursor"></div>
+<div id="cursor-follower"></div>
+
+<!-- WhatsApp Float -->
+<a class="wa-float" href="https://wa.me/5524992886188?text=Olá!%20Vim%20pelo%20site%20do%20Empório%20Rações%20e%20gostaria%20de%20fazer%20um%20pedido." target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">
+  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="white">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+  </svg>
+</a>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <span id="lightbox-close" class="lightbox-close">&times;</span>
+  <img id="lightbox-img" src="" alt="Galeria" />
+</div>
+
+<!-- Mobile Nav -->
+<nav id="mobile-nav" class="mobile-nav" aria-label="Menu mobile">
+  <span id="mobile-close" class="mobile-close">&times;</span>
+  <a href="#inicio">Início</a>
+  <a href="#produtos">Produtos</a>
+  <a href="#marcas">Marcas</a>
+  <a href="#sobre">Sobre</a>
+  <a href="#galeria">Galeria</a>
+  <a href="#contato">Contato</a>
+  <a href="https://wa.me/5524992886188?text=Olá!%20Quero%20fazer%20um%20pedido." class="btn btn-primary" target="_blank" rel="noopener">
+    <i data-lucide="shopping-cart" class="btn-icon"></i> Fazer Pedido
+  </a>
+</nav>
+
+<!-- ========================
+     HEADER
+     ======================== -->
+<header id="header">
+  <div class="container">
+    <div class="header-inner">
+
+      <a href="#inicio" class="logo" aria-label="Empório Rações — Início">
+        <img src="assets/images/logo.png" alt="Empório Rações" class="logo-img" />
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#marcas">Marcas</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="header-cta">
+        <a class="header-phone" href="tel:+5524992886188" aria-label="Telefone">(24) 99288-6188</a>
+        <a class="btn btn-primary" href="https://wa.me/5524992886188?text=Olá!%20Quero%20fazer%20um%20pedido." target="_blank" rel="noopener" id="cta-header">
+          <i data-lucide="shopping-cart" class="btn-icon"></i> Fazer Pedido
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<!-- ========================
+     HERO
+     ======================== -->
+<section id="inicio" aria-label="Hero">
+  <div id="hero">
+    <!-- Background Video -->
+    <div class="hero-bg">
+      <video autoplay muted loop playsinline preload="auto" aria-hidden="true">
+        <source src="Video HERO.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="hero-overlay"></div>
+
+    <!-- Floating shapes (no emojis) -->
+    <div class="hero-floats" aria-hidden="true">
+      <span class="paw-float"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" opacity=".15"><ellipse cx="7" cy="5" rx="2.2" ry="2.8"/><ellipse cx="17" cy="5" rx="2.2" ry="2.8"/><ellipse cx="3.5" cy="11" rx="2.2" ry="2.8"/><ellipse cx="20.5" cy="11" rx="2.2" ry="2.8"/><path d="M12 22c-4 0-7-3-7-6 0-2 2-4 4-5s3-1.5 3-1.5 1 .5 3 1.5 4 3 4 5c0 3-3 6-7 6z"/></svg></span>
+      <span class="paw-float"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="none" opacity=".1"><ellipse cx="7" cy="5" rx="2.2" ry="2.8"/><ellipse cx="17" cy="5" rx="2.2" ry="2.8"/><ellipse cx="3.5" cy="11" rx="2.2" ry="2.8"/><ellipse cx="20.5" cy="11" rx="2.2" ry="2.8"/><path d="M12 22c-4 0-7-3-7-6 0-2 2-4 4-5s3-1.5 3-1.5 1 .5 3 1.5 4 3 4 5c0 3-3 6-7 6z"/></svg></span>
+      <span class="paw-float"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="currentColor" stroke="none" opacity=".08"><ellipse cx="7" cy="5" rx="2.2" ry="2.8"/><ellipse cx="17" cy="5" rx="2.2" ry="2.8"/><ellipse cx="3.5" cy="11" rx="2.2" ry="2.8"/><ellipse cx="20.5" cy="11" rx="2.2" ry="2.8"/><path d="M12 22c-4 0-7-3-7-6 0-2 2-4 4-5s3-1.5 3-1.5 1 .5 3 1.5 4 3 4 5c0 3-3 6-7 6z"/></svg></span>
+      <span class="paw-float"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none" opacity=".12"><ellipse cx="7" cy="5" rx="2.2" ry="2.8"/><ellipse cx="17" cy="5" rx="2.2" ry="2.8"/><ellipse cx="3.5" cy="11" rx="2.2" ry="2.8"/><ellipse cx="20.5" cy="11" rx="2.2" ry="2.8"/><path d="M12 22c-4 0-7-3-7-6 0-2 2-4 4-5s3-1.5 3-1.5 1 .5 3 1.5 4 3 4 5c0 3-3 6-7 6z"/></svg></span>
+      <span class="paw-float"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" opacity=".1"><ellipse cx="7" cy="5" rx="2.2" ry="2.8"/><ellipse cx="17" cy="5" rx="2.2" ry="2.8"/><ellipse cx="3.5" cy="11" rx="2.2" ry="2.8"/><ellipse cx="20.5" cy="11" rx="2.2" ry="2.8"/><path d="M12 22c-4 0-7-3-7-6 0-2 2-4 4-5s3-1.5 3-1.5 1 .5 3 1.5 4 3 4 5c0 3-3 6-7 6z"/></svg></span>
+    </div>
+
+    <!-- Content -->
+    <div class="hero-content">
+      <h1 class="hero-title">
+        Tudo que seu <span class="highlight">melhor amigo</span> precisa em um só lugar.
+      </h1>
+      <p class="hero-desc">
+        Segurança, qualidade e carinho para o seu pet — com as melhores marcas e entrega rápida.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://wa.me/5524992886188?text=Olá!%20Vim%20pelo%20site%20e%20quero%20fazer%20um%20pedido." target="_blank" rel="noopener" id="hero-cta-whatsapp">
+          Fazer Pedido <i data-lucide="arrow-right" class="btn-icon"></i>
+        </a>
+        <a class="btn btn-outline" href="#sobre" id="hero-cta-loja">
+          Conheça a Loja
+        </a>
+      </div>
+      <div class="hero-bullets">
+        <span class="hero-bullet"><span class="hero-bullet-icon"><i data-lucide="check-circle"></i></span> +10 mil clientes atendidos</span>
+        <span class="hero-bullet"><span class="hero-bullet-icon"><i data-lucide="map-pin"></i></span> Paraíba do Sul · RJ</span>
+        <span class="hero-bullet"><span class="hero-bullet-icon"><i data-lucide="star"></i></span> 4,8 no Google</span>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll</span>
+    </div>
+  </div>
+</section>
+
+<!-- ========================
+     CATEGORIAS
+     ======================== -->
+<section id="categorias" aria-labelledby="cat-title">
+  <div class="container">
+    <div class="categorias-header">
+      <div class="section-badge reveal"><i data-lucide="paw-print" class="badge-icon"></i> Para todos os animais</div>
+      <h2 id="cat-title" class="section-title reveal delay-1">Encontre o que<br><span>seu pet precisa</span></h2>
+      <p class="section-sub reveal delay-2" style="margin: 1rem auto 0;">Seleção completa de produtos para animais de estimação e de produção, das melhores marcas do mercado.</p>
+    </div>
+    <div class="categorias-grid">
+      <div class="cat-card reveal delay-1" tabindex="0" role="button" aria-label="Cachorros">
+        <div class="cat-icon"><i data-lucide="dog"></i></div>
+        <span class="cat-name">Cachorros</span>
+      </div>
+      <div class="cat-card reveal delay-2" tabindex="0" role="button" aria-label="Gatos">
+        <div class="cat-icon"><i data-lucide="cat"></i></div>
+        <span class="cat-name">Gatos</span>
+      </div>
+      <div class="cat-card reveal delay-3" tabindex="0" role="button" aria-label="Pássaros">
+        <div class="cat-icon"><i data-lucide="bird"></i></div>
+        <span class="cat-name">Pássaros</span>
+      </div>
+      <div class="cat-card reveal delay-4" tabindex="0" role="button" aria-label="Peixes">
+        <div class="cat-icon"><i data-lucide="fish"></i></div>
+        <span class="cat-name">Peixes</span>
+      </div>
+      <div class="cat-card reveal delay-5" tabindex="0" role="button" aria-label="Coelhos">
+        <div class="cat-icon"><i data-lucide="rabbit"></i></div>
+        <span class="cat-name">Coelhos</span>
+      </div>
+      <div class="cat-card reveal delay-6" tabindex="0" role="button" aria-label="Equinos">
+        <div class="cat-icon">
+          <!-- Horse (custom, Lucide style) -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M22 3c-1.5 1-3 1.5-4.5 1.5C16 4.5 15 3.5 14 3l-1 5c0 2 1.5 3.5 3.5 4"/><path d="M14 8c-2 0-5 2.5-5 6v1H6v5h2.5v-3h7v3H18v-5h-3v-1c0-2.5.5-4 2-5.5"/><circle cx="18.5" cy="5.5" r=".5" fill="currentColor" stroke="none"/></svg>
+        </div>
+        <span class="cat-name">Equinos</span>
+      </div>
+      <div class="cat-card reveal" tabindex="0" role="button" aria-label="Bovinos">
+        <div class="cat-icon"><i data-lucide="beef"></i></div>
+        <span class="cat-name">Bovinos</span>
+      </div>
+      <div class="cat-card reveal delay-1" tabindex="0" role="button" aria-label="Suínos">
+        <div class="cat-icon">
+          <!-- Pig (custom, Lucide style) -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="13" rx="7" ry="5.5"/><circle cx="9.5" cy="11.5" r=".75" fill="currentColor" stroke="none"/><circle cx="14.5" cy="11.5" r=".75" fill="currentColor" stroke="none"/><ellipse cx="12" cy="14.5" rx="2" ry="1.25"/><circle cx="11.2" cy="14.5" r=".4" fill="currentColor" stroke="none"/><circle cx="12.8" cy="14.5" r=".4" fill="currentColor" stroke="none"/><path d="M5.5 11L4 9"/><path d="M18.5 11L20 9"/><path d="M8.5 18l-.5 3"/><path d="M15.5 18l.5 3"/><path d="M17.5 8.5c1 .5 2 1.5 2 3"/><path d="M6.5 8.5c-1 .5-2 1.5-2 3"/></svg>
+        </div>
+        <span class="cat-name">Suínos</span>
+      </div>
+      <div class="cat-card reveal delay-2" tabindex="0" role="button" aria-label="Aves">
+        <div class="cat-icon"><i data-lucide="egg"></i></div>
+        <span class="cat-name">Aves</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================
+     DIFERENCIAIS
+     ======================== -->
+<section id="diferenciais" aria-labelledby="dif-title">
+  <div class="container">
+    <div class="diferenciais-header">
+      <div class="section-badge reveal"><i data-lucide="sparkles" class="badge-icon"></i> Por que nos escolher</div>
+      <h2 id="dif-title" class="section-title reveal delay-1">Nossos<br><span>diferenciais</span></h2>
+    </div>
+    <div class="diferenciais-grid">
+      <div class="dif-card reveal">
+        <div class="dif-icon">
+          <i data-lucide="truck" style="width:28px;height:28px;stroke:#C62828;"></i>
+        </div>
+        <h3 class="dif-title">Entrega Rápida</h3>
+        <p class="dif-desc">Receba os produtos para o seu pet no conforto da sua casa, com rapidez e segurança. Atendemos Paraíba do Sul e região.</p>
+      </div>
+      <div class="dif-card reveal delay-1">
+        <div class="dif-icon">
+          <i data-lucide="heart-handshake" style="width:28px;height:28px;stroke:#C62828;"></i>
+        </div>
+        <h3 class="dif-title">Atendimento Especializado</h3>
+        <p class="dif-desc">Nossa equipe está pronta para orientar você na escolha dos melhores produtos, com carinho e conhecimento técnico.</p>
+      </div>
+      <div class="dif-card reveal delay-2">
+        <div class="dif-icon">
+          <i data-lucide="award" style="width:28px;height:28px;stroke:#C62828;"></i>
+        </div>
+        <h3 class="dif-title">Melhores Marcas</h3>
+        <p class="dif-desc">Trabalhamos com as marcas mais reconhecidas do mercado: Royal Canin, Purina, Premier, Golden, Farmina e muito mais.</p>
+      </div>
+      <div class="dif-card reveal delay-3">
+        <div class="dif-icon">
+          <i data-lucide="shield-check" style="width:28px;height:28px;stroke:#C62828;"></i>
+        </div>
+        <h3 class="dif-title">Tudo para seu Animal</h3>
+        <p class="dif-desc">Pets e animais de produção. Do cachorro ao bovino — rações, medicamentos, acessórios, suplementos e higiene em um único lugar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================
+     MARCAS
+     ======================== -->
+<section id="marcas" aria-labelledby="marcas-title">
+  <div class="container">
+    <div class="marcas-header">
+      <div class="section-badge reveal"><i data-lucide="trophy" class="badge-icon"></i> Parceiros de qualidade</div>
+      <h2 id="marcas-title" class="section-title reveal delay-1">Marcas que<br><span>seu pet merece</span></h2>
+    </div>
+  </div>
+  <div class="marcas-track-wrap reveal">
+    <div class="marcas-track" aria-label="Marcas parceiras">
+      <!-- Track 1 -->
+      <div class="marca-item"><span class="marca-name">Premier</span></div>
+      <div class="marca-item"><span class="marca-name">Golden</span></div>
+      <div class="marca-item"><span class="marca-name">Royal Canin</span></div>
+      <div class="marca-item"><span class="marca-name">Purina</span></div>
+      <div class="marca-item"><span class="marca-name">Farmina</span></div>
+      <div class="marca-item"><span class="marca-name">Magnus</span></div>
+      <div class="marca-item"><span class="marca-name">Whiskas</span></div>
+      <div class="marca-item"><span class="marca-name">Pedigree</span></div>
+      <div class="marca-item"><span class="marca-name">Nutrilis</span></div>
+      <!-- Track 2 (duplicate for infinite loop) -->
+      <div class="marca-item"><span class="marca-name">Premier</span></div>
+      <div class="marca-item"><span class="marca-name">Golden</span></div>
+      <div class="marca-item"><span class="marca-name">Royal Canin</span></div>
+      <div class="marca-item"><span class="marca-name">Purina</span></div>
+      <div class="marca-item"><span class="marca-name">Farmina</span></div>
+      <div class="marca-item"><span class="marca-name">Magnus</span></div>
+      <div class="marca-item"><span class="marca-name">Whiskas</span></div>
+      <div class="marca-item"><span class="marca-name">Pedigree</span></div>
+      <div class="marca-item"><span class="marca-name">Nutrilis</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================
+     PRODUTOS
+     ======================== -->
+<section id="produtos" aria-labelledby="produtos-title">
+  <div class="container">
+    <div class="produtos-header">
+      <div class="section-badge reveal"><i data-lucide="package" class="badge-icon"></i> Nosso catálogo</div>
+      <h2 id="produtos-title" class="section-title reveal delay-1">Produtos<br><span>selecionados</span></h2>
+      <p class="section-sub reveal delay-2" style="margin: 1rem auto 0;">Qualidade garantida para manter seu animal saudável e feliz.</p>
+    </div>
+
+    <!-- Tabs -->
+    <div class="produtos-tabs reveal">
+      <button class="tab-btn active" data-filter="all">Todos</button>
+      <button class="tab-btn" data-filter="racao">Rações</button>
+      <button class="tab-btn" data-filter="med">Medicamentos</button>
+      <button class="tab-btn" data-filter="petisco">Petiscos</button>
+      <button class="tab-btn" data-filter="brinquedo">Brinquedos</button>
+      <button class="tab-btn" data-filter="acessorio">Acessórios</button>
+      <button class="tab-btn" data-filter="higiene">Higiene</button>
+    </div>
+
+    <div class="produtos-grid">
+      <div class="produto-card reveal" data-cat="racao">
+        <div class="produto-img">
+          <img src="assets/images/gallery-racoes.png" alt="Ração Premium para Cães" loading="lazy" />
+          <span class="produto-badge"><i data-lucide="star" class="badge-icon-sm"></i> Destaque</span>
+        </div>
+        <div class="produto-info">
+          <div class="produto-cat">Rações</div>
+          <div class="produto-name">Ração Premium — Cães Adultos</div>
+        </div>
+      </div>
+      <div class="produto-card reveal delay-1" data-cat="racao">
+        <div class="produto-img">
+          <img src="assets/images/gallery-cat.png" alt="Ração para Gatos" loading="lazy" />
+        </div>
+        <div class="produto-info">
+          <div class="produto-cat">Rações</div>
+          <div class="produto-name">Ração Super Premium — Gatos</div>
+        </div>
+      </div>
+      <div class="produto-card reveal delay-2" data-cat="acessorio">
+        <div class="produto-img">
+          <img src="assets/images/gallery-loja.png" alt="Acessórios Premium" loading="lazy" />
+          <span class="produto-badge"><i data-lucide="flame" class="badge-icon-sm"></i> Popular</span>
+        </div>
+        <div class="produto-info">
+          <div class="produto-cat">Acessórios</div>
+          <div class="produto-name">Coleiras, Guias e Acessórios</div>
+        </div>
+      </div>
+      <div class="produto-card reveal delay-3" data-cat="petisco">
+        <div class="produto-img">
+          <img src="assets/images/gallery-dog.png" alt="Petiscos para Cães" loading="lazy" />
+        </div>
+        <div class="produto-info">
+          <div class="produto-cat">Petiscos</div>
+          <div class="produto-name">Petiscos Naturais Premium</div>
+        </div>
+      </div>
+      <div class="produto-card reveal delay-4" data-cat="med">
+        <div class="produto-img">
+          <img src="assets/images/gallery-atendimento.png" alt="Medicamentos Veterinários" loading="lazy" />
+          <span class="produto-badge"><i data-lucide="shield-plus" class="badge-icon-sm"></i> Saúde</span>
+        </div>
+        <div class="produto-info">
+          <div class="produto-cat">Medicamentos</div>
+          <div class="produto-name">Medicamentos Veterinários</div>
+        </div>
+      </div>
+      <div class="produto-card reveal delay-5" data-cat="brinquedo">
+        <div class="produto-img">
+          <img src="assets/images/gallery-birds.png" alt="Brinquedos para Pets" loading="lazy" />
+        </div>
+        <div class="produto-info">
+          <div class="produto-cat">Brinquedos</div>
+          <div class="produto-name">Brinquedos e Enriquecimento</div>
+        </div>
+      </div>
+      <div class="produto-card reveal" data-cat="higiene">
+        <div class="produto-img">
+          <img src="assets/images/gallery-racoes.png" alt="Produtos de Higiene" loading="lazy" />
+        </div>
+        <div class="produto-info">
+          <div class="produto-cat">Higiene</div>
+          <div class="produto-name">Areias, Shampoos e Higiene</div>
+        </div>
+      </div>
+      <div class="produto-card reveal delay-1" data-cat="racao">
+        <div class="produto-img">
+          <img src="assets/images/gallery-loja.png" alt="Suplementos" loading="lazy" />
+          <span class="produto-badge"><i data-lucide="leaf" class="badge-icon-sm"></i> Saúde</span>
+        </div>
+        <div class="produto-info">
+          <div class="produto-cat">Suplementos</div>
+          <div class="produto-name">Suplementos e Vitaminas</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:3rem;" class="reveal">
+      <a class="btn btn-primary" href="https://wa.me/5524992886188?text=Olá!%20Quero%20ver%20o%20catálogo%20completo%20de%20produtos." target="_blank" rel="noopener" id="ver-catalogo">
+        Ver catálogo completo <i data-lucide="arrow-right" class="btn-icon"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ========================
+     SOBRE
+     ======================== -->
+<section id="sobre" aria-labelledby="sobre-title">
+  <div class="container">
+    <div class="sobre-grid">
+      <div class="sobre-img-wrap reveal-left">
+        <img src="assets/images/sobre.png" alt="Interior da loja Empório Rações" loading="lazy" />
+        <div class="sobre-img-badge">
+          <div class="sobre-img-badge-num">+10</div>
+          <div class="sobre-img-badge-text">Anos de história</div>
+        </div>
+      </div>
+      <div class="sobre-content reveal-right">
+        <div class="section-badge"><i data-lucide="book-open" class="badge-icon"></i> Nossa história</div>
+        <h2 id="sobre-title" class="section-title" style="margin-bottom:1.5rem;">
+          Referência em<br><span>Paraíba do Sul</span>
+        </h2>
+        <p class="sobre-text">
+          O Empório Rações é referência em Paraíba do Sul quando o assunto é alimentação animal, medicamentos veterinários e acessórios. Trabalhamos com as melhores marcas do mercado e oferecemos atendimento especializado para pets e animais de produção, sempre prezando pela qualidade, confiança e bem-estar dos nossos clientes.
+        </p>
+        <p class="sobre-text">
+          Mais do que uma loja, somos parceiros de quem ama seus animais. Nossa equipe está sempre pronta para orientar, indicar o melhor produto e garantir que cada visita seja uma experiência única de confiança e cuidado.
+        </p>
+
+        <div class="sobre-stats">
+          <div class="stat-item">
+            <div class="stat-num" data-count="10000" data-suffix="">
+              +0
+            </div>
+            <div class="stat-label">Clientes atendidos</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num" data-count="100">+0</div>
+            <div class="stat-label">Marcas disponíveis</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num" style="font-size:1.6rem;">Atendimento</div>
+            <div class="stat-label">Personalizado</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num" style="font-size:1.6rem;">Entrega</div>
+            <div class="stat-label">Rápida</div>
+          </div>
+        </div>
+
+        <a class="btn btn-primary" href="https://wa.me/5524992886188?text=Olá!%20Quero%20saber%20mais%20sobre%20o%20Empório%20Rações." target="_blank" rel="noopener" id="sobre-cta">
+          Fale com a gente <i data-lucide="arrow-right" class="btn-icon"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================
+     GALERIA
+     ======================== -->
+<section id="galeria" aria-labelledby="galeria-title">
+  <div class="container">
+    <div class="galeria-header">
+      <div class="section-badge reveal"><i data-lucide="images" class="badge-icon"></i> Nossa galeria</div>
+      <h2 id="galeria-title" class="section-title reveal delay-1">A loja por<br><span>dentro</span></h2>
+      <p class="section-sub reveal delay-2" style="margin: 1rem auto 0;">Conheça nosso espaço, produtos e os pets felizes que passam por aqui.</p>
+    </div>
+
+    <div class="galeria-grid">
+      <div class="gal-item reveal">
+        <div class="gal-item-inner">
+          <img src="assets/images/gallery-dog.png" alt="Golden Retriever feliz" loading="lazy" />
+          <div class="gal-overlay"><span class="gal-overlay-icon"><i data-lucide="zoom-in"></i></span></div>
+        </div>
+      </div>
+      <div class="gal-item reveal delay-1">
+        <div class="gal-item-inner">
+          <img src="assets/images/gallery-cat.png" alt="Gato Persian elegante" loading="lazy" />
+          <div class="gal-overlay"><span class="gal-overlay-icon"><i data-lucide="zoom-in"></i></span></div>
+        </div>
+      </div>
+      <div class="gal-item reveal delay-2">
+        <div class="gal-item-inner">
+          <img src="assets/images/gallery-loja.png" alt="Prateleiras da loja" loading="lazy" />
+          <div class="gal-overlay"><span class="gal-overlay-icon"><i data-lucide="zoom-in"></i></span></div>
+        </div>
+      </div>
+      <div class="gal-item reveal delay-3">
+        <div class="gal-item-inner">
+          <img src="assets/images/gallery-racoes.png" alt="Rações Premium" loading="lazy" />
+          <div class="gal-overlay"><span class="gal-overlay-icon"><i data-lucide="zoom-in"></i></span></div>
+        </div>
+      </div>
+      <div class="gal-item reveal delay-4">
+        <div class="gal-item-inner">
+          <img src="assets/images/gallery-atendimento.png" alt="Atendimento especializado" loading="lazy" />
+          <div class="gal-overlay"><span class="gal-overlay-icon"><i data-lucide="zoom-in"></i></span></div>
+        </div>
+      </div>
+      <div class="gal-item reveal delay-5">
+        <div class="gal-item-inner">
+          <img src="assets/images/gallery-birds.png" alt="Pássaros coloridos" loading="lazy" />
+          <div class="gal-overlay"><span class="gal-overlay-icon"><i data-lucide="zoom-in"></i></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================
+     GOOGLE REVIEWS
+     ======================== -->
+<section id="reviews" aria-labelledby="reviews-title">
+  <div class="container">
+    <div class="reviews-header">
+      <div class="section-badge reveal"><i data-lucide="star" class="badge-icon"></i> Avaliações</div>
+      <h2 id="reviews-title" class="section-title reveal delay-1">O que nossos<br><span>clientes dizem</span></h2>
+    </div>
+
+    <div style="text-align:center; margin-bottom:3.5rem;" class="reveal delay-2">
+      <div class="google-rating-box">
+        <div class="google-logo">
+          <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+        </div>
+        <div>
+          <div class="google-rating-num">4,8</div>
+          <div class="google-stars"><i data-lucide="star" class="star-fill"></i><i data-lucide="star" class="star-fill"></i><i data-lucide="star" class="star-fill"></i><i data-lucide="star" class="star-fill"></i><i data-lucide="star" class="star-fill"></i></div>
+          <div class="google-count">23 avaliações no Google</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews-grid">
+      <div class="review-card reveal">
+        <div class="review-quote"><i data-lucide="quote" class="quote-icon"></i></div>
+        <p class="review-text">Excelente serviço e entregas residenciais realizadas no prazo combinado. Recomendo demais!</p>
+        <div class="review-stars"><i data-lucide="star" class="star-fill-sm"></i><i data-lucide="star" class="star-fill-sm"></i><i data-lucide="star" class="star-fill-sm"></i><i data-lucide="star" class="star-fill-sm"></i><i data-lucide="star" class="star-fill-sm"></i></div>
+        <div class="review-author">
+          <div class="review-avatar">MA</div>
+          <div>
+            <div class="review-name">Maria Aparecida</div>
+            <div class="review-date">Maio 2025</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-card reveal delay-1">
+        <div class="review-quote"><i data-lucide="quote" class="quote-icon"></i></div>
+        <p class="review-text">Loja top, meu pet agradece! Sempre encontro tudo que preciso e o atendimento é impecável.</p>
+        <div class="review-stars"><i data-lucide="star" class="star-fill-sm"></i><i data-lucide="star" class="star-fill-sm"></i><i data-lucide="star" class="star-fill-sm"></i><i data-lucide="star" class="star-fill-sm"></i><i data-lucide="star" class="star-fill-sm"></i></div>
+        <div class="review-author">
+          <div class="review-avatar">RS</div>
+          <div>
+            <div class="review-name">Roberto Silva</div>
+            <div class="review-date">Abril 2025</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-card reveal delay-2">
+        <div class="review-quote"><i data-lucide="quote" class="quote-icon"></i></div>
+        <p class="review-text">Excelente atendimento. Equipe muito atenciosa e bem informada sobre os produtos. Lugar de confiança!</p>
+        <div class="review-stars"><i data-lucide="star" class="star-fill-sm"></i><i data-lucide="star" class="star-fill-sm"></i><i data-lucide="star" class="star-fill-sm"></i><i data-lucide="star" class="star-fill-sm"></i><i data-lucide="star" class="star-fill-sm"></i></div>
+        <div class="review-author">
+          <div class="review-avatar">CF</div>
+          <div>
+            <div class="review-name">Carla Fernandes</div>
+            <div class="review-date">Março 2025</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews-cta reveal" style="margin-top:2.5rem;">
+      <a class="btn btn-primary" href="https://g.co/kgs/emporioracoes" target="_blank" rel="noopener" id="ver-avaliacoes">
+        <i data-lucide="star" class="btn-icon"></i> Ver todas as avaliações
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ========================
+     INSTAGRAM
+     ======================== -->
+<section id="instagram" aria-labelledby="insta-title">
+  <div class="container">
+    <div class="instagram-header">
+      <div class="section-badge reveal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="badge-icon"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg> Instagram</div>
+      <div class="instagram-handle reveal delay-1">
+        <span class="insta-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4h-5A5.5 5.5 0 0 0 4 9.5v5A5.5 5.5 0 0 0 9.5 20h5a5.5 5.5 0 0 0 5.5-5.5v-5A5.5 5.5 0 0 0 14.5 4Z"/><circle cx="12" cy="12" r="3"/></svg></span>
+        @emporioracoesps
+      </div>
+      <h2 id="insta-title" class="section-title reveal delay-2">Siga nossas<br><span>novidades</span></h2>
+    </div>
+
+    <div class="instagram-grid">
+      <div class="insta-item reveal">
+        <div class="insta-item-inner">
+          <img src="assets/images/gallery-dog.png" alt="Post Instagram — Cachorro" loading="lazy" />
+          <div class="insta-overlay"><i data-lucide="heart"></i></div>
+        </div>
+      </div>
+      <div class="insta-item reveal delay-1">
+        <div class="insta-item-inner">
+          <img src="assets/images/gallery-cat.png" alt="Post Instagram — Gato" loading="lazy" />
+          <div class="insta-overlay"><i data-lucide="heart"></i></div>
+        </div>
+      </div>
+      <div class="insta-item reveal delay-2">
+        <div class="insta-item-inner">
+          <img src="assets/images/gallery-racoes.png" alt="Post Instagram — Rações" loading="lazy" />
+          <div class="insta-overlay"><i data-lucide="heart"></i></div>
+        </div>
+      </div>
+      <div class="insta-item reveal delay-3">
+        <div class="insta-item-inner">
+          <img src="assets/images/gallery-loja.png" alt="Post Instagram — Loja" loading="lazy" />
+          <div class="insta-overlay"><i data-lucide="heart"></i></div>
+        </div>
+      </div>
+      <div class="insta-item reveal delay-4">
+        <div class="insta-item-inner">
+          <img src="assets/images/gallery-atendimento.png" alt="Post Instagram — Atendimento" loading="lazy" />
+          <div class="insta-overlay"><i data-lucide="heart"></i></div>
+        </div>
+      </div>
+      <div class="insta-item reveal delay-5">
+        <div class="insta-item-inner">
+          <img src="assets/images/gallery-birds.png" alt="Post Instagram — Pássaros" loading="lazy" />
+          <div class="insta-overlay"><i data-lucide="heart"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="instagram-cta reveal" style="margin-top:2.5rem;">
+      <a class="btn btn-primary" href="https://instagram.com/emporioracoesps" target="_blank" rel="noopener" id="seguir-instagram">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg> Seguir @emporioracoesps
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ========================
+     MAPA + CONTATO
+     ======================== -->
+<section id="contato" aria-labelledby="contato-title">
+  <div class="container">
+    <div style="text-align:center; margin-bottom:4rem;">
+      <div class="section-badge reveal"><i data-lucide="map-pin" class="badge-icon"></i> Onde estamos</div>
+      <h2 id="contato-title" class="section-title reveal delay-1">Venha nos<br><span>visitar</span></h2>
+    </div>
+    <div class="contato-grid">
+      <div class="contato-info">
+        <div class="contato-info-item reveal">
+          <span class="contato-icon"><i data-lucide="map-pin"></i></span>
+          <div>
+            <div class="contato-label">Endereço</div>
+            <div class="contato-value">
+              Av. Ayrton Senna, 370 — Centro<br>
+              Paraíba do Sul – RJ
+            </div>
+          </div>
+        </div>
+        <div class="contato-info-item reveal delay-1">
+          <span class="contato-icon"><i data-lucide="phone"></i></span>
+          <div>
+            <div class="contato-label">Telefone / WhatsApp</div>
+            <div class="contato-value">
+              <a href="https://wa.me/5524992886188" target="_blank" rel="noopener">(24) 99288-6188</a>
+            </div>
+          </div>
+        </div>
+        <div class="contato-info-item reveal delay-2">
+          <span class="contato-icon"><i data-lucide="clock"></i></span>
+          <div>
+            <div class="contato-label">Horário de funcionamento</div>
+            <div class="contato-value">
+              <div class="horario-grid">
+                <div class="horario-row">
+                  <span class="dia">Segunda a Sexta</span>
+                  <span class="hora">08h às 18h30</span>
+                </div>
+                <div class="horario-row">
+                  <span class="dia">Sábado</span>
+                  <span class="hora">08h às 13h</span>
+                </div>
+                <div class="horario-row">
+                  <span class="dia">Domingo</span>
+                  <span class="hora" style="color:#9e9e9e;">Fechado</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reveal delay-3" style="margin-top:1rem;">
+          <a class="btn btn-primary" href="https://wa.me/5524992886188?text=Olá!%20Quero%20tirar%20uma%20dúvida%20sobre%20produtos." target="_blank" rel="noopener" id="contato-whatsapp">
+            <i data-lucide="message-circle" class="btn-icon"></i> Falar no WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <div class="mapa-wrap reveal-right">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3698.3!2d-43.3119!3d-22.1583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDA5JzI5LjkiUyA0M8KwMTgnNDIuOCJX!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Localização do Empório Rações — Av. Ayrton Senna, 370, Paraíba do Sul – RJ"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================
+     CTA FINAL
+     ======================== -->
+<section id="cta-final" aria-label="CTA Final">
+  <div class="cta-bg-img">
+    <img src="assets/images/cta.png" alt="" aria-hidden="true" loading="lazy" />
+  </div>
+  <div class="cta-shapes" aria-hidden="true">
+    <div class="cta-shape"></div>
+    <div class="cta-shape"></div>
+    <div class="cta-shape"></div>
+  </div>
+  <div class="container cta-inner">
+    <div class="section-badge reveal" style="background:rgba(255,255,255,.15); border-color:rgba(255,255,255,.3); color:white;">
+      <i data-lucide="paw-print" class="badge-icon" style="stroke:white;"></i> Seu pet agradece
+    </div>
+    <h2 class="cta-title reveal delay-1">
+      Seu animal merece<br>o melhor.
+    </h2>
+    <p class="cta-sub reveal delay-2">
+      Venha conhecer nossa loja ou faça seu pedido pelo WhatsApp. Atendemos com carinho e rapidez.
+    </p>
+    <div class="reveal delay-3">
+      <a class="cta-btn" href="https://wa.me/5524992886188?text=Olá!%20Vim%20pelo%20site%20e%20quero%20fazer%20um%20pedido!" target="_blank" rel="noopener" id="cta-final-whatsapp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="#25D366">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+        Chamar no WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ========================
+     FOOTER
+     ======================== -->
+<footer id="footer" aria-label="Rodapé">
+  <div class="container">
+    <div class="footer-grid">
+      <!-- Col 1 -->
+      <div>
+        <div class="footer-logo">
+          <img src="assets/images/logo.png" alt="Empório Rações" class="footer-logo-img" />
+        </div>
+        <p class="footer-desc">
+          Referência em Paraíba do Sul em rações, medicamentos veterinários e acessórios para animais. Trabalhamos com as melhores marcas para o bem-estar do seu pet.
+        </p>
+        <div class="footer-social">
+          <a class="social-btn" href="https://instagram.com/emporioracoesps" target="_blank" rel="noopener" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a>
+          <a class="social-btn" href="https://wa.me/5524992886188" target="_blank" rel="noopener" aria-label="WhatsApp"><i data-lucide="message-circle"></i></a>
+          <a class="social-btn" href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        </div>
+      </div>
+
+      <!-- Col 2 -->
+      <div>
+        <div class="footer-col-title">Navegação</div>
+        <nav class="footer-links" aria-label="Links do rodapé">
+          <a href="#inicio">Início</a>
+          <a href="#categorias">Categorias</a>
+          <a href="#produtos">Produtos</a>
+          <a href="#marcas">Marcas</a>
+          <a href="#sobre">Sobre nós</a>
+          <a href="#galeria">Galeria</a>
+          <a href="#reviews">Avaliações</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+
+      <!-- Col 3 -->
+      <div>
+        <div class="footer-col-title">Produtos</div>
+        <nav class="footer-links" aria-label="Links de produtos">
+          <a href="#produtos">Rações</a>
+          <a href="#produtos">Medicamentos</a>
+          <a href="#produtos">Petiscos</a>
+          <a href="#produtos">Brinquedos</a>
+          <a href="#produtos">Acessórios</a>
+          <a href="#produtos">Higiene</a>
+          <a href="#produtos">Suplementos</a>
+        </nav>
+      </div>
+
+      <!-- Col 4 -->
+      <div>
+        <div class="footer-col-title">Contato</div>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon"><i data-lucide="map-pin"></i></span>
+          <span>Av. Ayrton Senna, 370<br>Centro — Paraíba do Sul, RJ</span>
+        </div>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon"><i data-lucide="phone"></i></span>
+          <a href="https://wa.me/5524992886188" style="color:rgba(255,255,255,.65);">(24) 99288-6188</a>
+        </div>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon"><i data-lucide="clock"></i></span>
+          <span>Seg–Sex: 08h–18h30<br>Sáb: 08h–13h</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; 2025 Empório Rações. Todos os direitos reservados.</span>
+      <span>Feito com <i data-lucide="heart" class="footer-heart"></i> para quem ama animais — Paraíba do Sul, RJ</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Lucide Icons CDN -->
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script src="js/main.js"></script>
+<script>lucide.createIcons();</script>
+</body>
+</html>
