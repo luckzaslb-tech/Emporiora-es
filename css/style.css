@@ -47,12 +47,18 @@ html {
   scroll-behavior: smooth;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 body {
   font-family: var(--font-body);
   color: var(--text);
   background: var(--white);
+  width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
+  position: relative;
   cursor: none;
 }
 img { display: block; width: 100%; height: 100%; object-fit: cover; }
@@ -1410,8 +1416,9 @@ body:hover #cursor { opacity: 1; }
   display: none;
   position: fixed;
   bottom: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   width: calc(100% - 2rem);
   max-width: 420px;
   height: 64px;
@@ -1494,6 +1501,13 @@ body:hover #cursor { opacity: 1; }
 }
 
 @media (max-width: 768px) {
+  /* Prevent horizontal animation overflow on mobile */
+  .reveal-left, .reveal-right {
+    transform: translateY(30px) !important;
+  }
+  .reveal-left.visible, .reveal-right.visible {
+    transform: translateY(0) !important;
+  }
   .nav, .header-phone, #cta-header { display: none !important; }
   .hamburger { display: flex; }
   .wa-float { display: none !important; }
