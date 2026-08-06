@@ -227,6 +227,7 @@ document.querySelectorAll('.cat-card').forEach(card => {
 /* ─── Active nav highlight on scroll ─── */
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('.nav a[href^="#"]');
+const bottomNavLinks = document.querySelectorAll('.bottom-nav-item[href^="#"]');
 
 window.addEventListener('scroll', () => {
   let current = '';
@@ -235,6 +236,12 @@ window.addEventListener('scroll', () => {
     if (window.scrollY >= top) current = s.getAttribute('id');
   });
   navLinks.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === '#' + current) {
+      link.classList.add('active');
+    }
+  });
+  bottomNavLinks.forEach(link => {
     link.classList.remove('active');
     if (link.getAttribute('href') === '#' + current) {
       link.classList.add('active');
