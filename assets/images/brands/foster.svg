@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <defs>
+    <linearGradient id="foster-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C2410C"/>
+      <stop offset="100%" stop-color="#7C2D12"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="60" rx="8" fill="url(#foster-bg)"/>
+  <!-- Paw in circle -->
+  <circle cx="100" cy="18" r="9" fill="#1E3A8A"/>
+  <ellipse cx="97" cy="16" rx="1.5" ry="2" fill="#FFFFFF"/>
+  <ellipse cx="103" cy="16" rx="1.5" ry="2" fill="#FFFFFF"/>
+  <ellipse cx="94" cy="19" rx="1.2" ry="1.8" fill="#FFFFFF"/>
+  <ellipse cx="106" cy="19" rx="1.2" ry="1.8" fill="#FFFFFF"/>
+  <path d="M 100 23 C 97 23 96 20 100 19 C 104 20 103 23 100 23 Z" fill="#FFFFFF"/>
+  <text x="100" y="44" font-family="'Trebuchet MS', sans-serif" font-weight="bold" font-size="20" fill="#FFFFFF" text-anchor="middle">Foster</text>
+  <text x="100" y="52" font-family="sans-serif" font-size="6" font-weight="600" fill="#FDBA74" text-anchor="middle" letter-spacing="1">PREMIUM PET FOOD</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <defs>
+    <linearGradient id="pedigree-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD100"/>
+      <stop offset="100%" stop-color="#FFA800"/>
+    </linearGradient>
+    <filter id="pedigree-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <!-- Background Badge -->
+  <rect width="200" height="60" rx="8" fill="url(#pedigree-bg)"/>
+  <!-- Blue Ribbon background -->
+  <path d="M 20 12 L 180 12 L 175 48 L 25 48 Z" fill="#002F6C" filter="url(#pedigree-shadow)"/>
+  <!-- Red Accent Line -->
+  <path d="M 18 10 L 182 10 L 180 14 L 20 14 Z" fill="#E31837"/>
+  <!-- Text -->
+  <text x="100" y="38" font-family="'Arial Black', 'Helvetica Neue', sans-serif" font-weight="900" font-size="24" fill="#FFFFFF" text-anchor="middle" letter-spacing="-0.5">Pedigree</text>
+</svg>

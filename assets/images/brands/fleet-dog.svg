@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <defs>
+    <linearGradient id="fleet-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#991B1B"/>
+      <stop offset="100%" stop-color="#7F1D1D"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="60" rx="8" fill="url(#fleet-bg)"/>
+  <!-- Fleet speed lines -->
+  <path d="M 60 16 L 140 16" stroke="#EF4444" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="100" y="39" font-family="'Impact', 'Arial Black', sans-serif" font-size="20" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FLEET DOG</text>
+  <text x="100" y="50" font-family="sans-serif" font-size="6.5" font-weight="bold" fill="#FCA5A5" text-anchor="middle" letter-spacing="1">ENERGIA &amp; SAÚDE</text>
+</svg>

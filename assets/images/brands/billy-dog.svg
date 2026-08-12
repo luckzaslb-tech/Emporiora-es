@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <defs>
+    <linearGradient id="billydog-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="60" rx="8" fill="url(#billydog-bg)"/>
+  <!-- Dog Ear / Tail element -->
+  <path d="M 92 10 C 95 6 105 6 108 10 L 105 18 L 95 18 Z" fill="#EF4444"/>
+  <text x="100" y="40" font-family="'Comic Sans MS', 'Arial Black', sans-serif" font-weight="bold" font-size="20" fill="#FFFFFF" text-anchor="middle">Billy Dog</text>
+  <text x="100" y="51" font-family="sans-serif" font-size="6.5" font-weight="bold" fill="#BAE6FD" text-anchor="middle" letter-spacing="1">RAÇÃO COMPLETA</text>
+</svg>

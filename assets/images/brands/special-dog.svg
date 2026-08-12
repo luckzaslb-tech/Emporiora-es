@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <defs>
+    <linearGradient id="sd-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DC2626"/>
+      <stop offset="100%" stop-color="#991B1B"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="60" rx="8" fill="url(#sd-bg)"/>
+  <!-- Dog Bone graphic -->
+  <path d="M 82 15 C 80 13 77 15 77 17 C 77 19 80 20 83 19 L 117 19 C 120 20 123 19 123 17 C 123 15 120 13 118 15 Z" fill="#FACC15"/>
+  <text x="100" y="38" font-family="'Arial Black', sans-serif" font-weight="900" font-size="19" fill="#FFFFFF" text-anchor="middle">Special Dog</text>
+  <text x="100" y="50" font-family="sans-serif" font-size="7" font-weight="bold" fill="#FACC15" text-anchor="middle" letter-spacing="1">NUTRITION &amp; CARE</text>
+</svg>

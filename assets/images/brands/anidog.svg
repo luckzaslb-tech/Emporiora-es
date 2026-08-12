@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <defs>
+    <linearGradient id="anidog-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#115E59"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="60" rx="8" fill="url(#anidog-bg)"/>
+  <!-- Paw outline -->
+  <path d="M 100 8 C 96 8 95 12 97 14 C 99 16 101 16 103 14 C 105 12 104 8 100 8 Z" fill="#F97316"/>
+  <text x="100" y="40" font-family="'Trebuchet MS', sans-serif" font-weight="bold" font-size="20" fill="#FFFFFF" text-anchor="middle">ANiDog</text>
+  <text x="100" y="51" font-family="sans-serif" font-size="6.5" font-weight="bold" fill="#F97316" text-anchor="middle" letter-spacing="1">NUTRIÇÃO ANIMAL</text>
+</svg>

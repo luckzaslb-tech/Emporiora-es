@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <defs>
+    <linearGradient id="rc-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="60" rx="8" fill="url(#rc-bg)" stroke="#E2E8F0" stroke-width="1"/>
+  <!-- Crown & Arch graphic -->
+  <path d="M 50 14 C 70 8 130 8 150 14" stroke="#D32F2F" stroke-width="2.5" fill="none"/>
+  <!-- Crown in middle -->
+  <path d="M 94 14 L 97 10 L 100 13 L 103 10 L 106 14 Z" fill="#D32F2F"/>
+  <text x="100" y="38" font-family="'Arial Black', 'Helvetica Neue', sans-serif" font-weight="900" font-size="18" fill="#D32F2F" text-anchor="middle" letter-spacing="-0.5">ROYAL CANIN</text>
+  <text x="100" y="49" font-family="sans-serif" font-size="6" font-weight="bold" fill="#475569" text-anchor="middle" letter-spacing="1.5">HEALTH NUTRITION</text>
+</svg>

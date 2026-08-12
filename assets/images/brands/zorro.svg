@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <defs>
+    <linearGradient id="zorro-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="60" rx="8" fill="url(#zorro-bg)"/>
+  <!-- Zorro slash badge -->
+  <path d="M 85 14 L 115 14 L 90 22 L 115 22" stroke="#F59E0B" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text x="100" y="44" font-family="'Impact', 'Arial Black', sans-serif" font-size="20" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">ZORRO</text>
+  <text x="100" y="52" font-family="sans-serif" font-size="6" font-weight="bold" fill="#F59E0B" text-anchor="middle" letter-spacing="1">RAÇÕES DE QUALIDADE</text>
+</svg>
