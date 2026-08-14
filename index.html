@@ -147,53 +147,108 @@
 <section id="categorias" aria-labelledby="cat-title">
   <div class="container">
     <div class="categorias-header">
-      <div class="section-badge reveal"><i data-lucide="paw-print" class="badge-icon"></i> Para todos os animais</div>
-      <h2 id="cat-title" class="section-title reveal delay-1">Encontre o que<br><span>seu pet precisa</span></h2>
-      <p class="section-sub reveal delay-2" style="margin: 1rem auto 0;">Seleção completa de produtos para animais de estimação e de produção, das melhores marcas do mercado.</p>
+      <div class="section-badge reveal"><i data-lucide="layout-grid" class="badge-icon"></i> Nossas categorias</div>
+      <h2 id="cat-title" class="section-title reveal delay-1">Encontre tudo o<br><span>que você precisa</span></h2>
+      <p class="section-sub reveal delay-2" style="margin: 1rem auto 0;">Produtos para seus animais, sua casa, seu jardim e muito mais.</p>
     </div>
     <div class="categorias-grid">
-      <div class="cat-card reveal delay-1" tabindex="0" role="button" aria-label="Cachorros">
-        <div class="cat-icon"><i data-lucide="dog"></i></div>
-        <span class="cat-name">Cachorros</span>
-      </div>
-      <div class="cat-card reveal delay-2" tabindex="0" role="button" aria-label="Gatos">
-        <div class="cat-icon"><i data-lucide="cat"></i></div>
-        <span class="cat-name">Gatos</span>
-      </div>
-      <div class="cat-card reveal delay-3" tabindex="0" role="button" aria-label="Pássaros">
-        <div class="cat-icon"><i data-lucide="bird"></i></div>
-        <span class="cat-name">Pássaros</span>
-      </div>
-      <div class="cat-card reveal delay-4" tabindex="0" role="button" aria-label="Peixes">
-        <div class="cat-icon"><i data-lucide="fish"></i></div>
-        <span class="cat-name">Peixes</span>
-      </div>
-      <div class="cat-card reveal delay-5" tabindex="0" role="button" aria-label="Coelhos">
-        <div class="cat-icon"><i data-lucide="rabbit"></i></div>
-        <span class="cat-name">Coelhos</span>
-      </div>
-      <div class="cat-card reveal delay-6" tabindex="0" role="button" aria-label="Equinos">
-        <div class="cat-icon">
-          <!-- Horse (custom, Lucide style) -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M22 3c-1.5 1-3 1.5-4.5 1.5C16 4.5 15 3.5 14 3l-1 5c0 2 1.5 3.5 3.5 4"/><path d="M14 8c-2 0-5 2.5-5 6v1H6v5h2.5v-3h7v3H18v-5h-3v-1c0-2.5.5-4 2-5.5"/><circle cx="18.5" cy="5.5" r=".5" fill="currentColor" stroke="none"/></svg>
+
+      <!-- 1. Rações -->
+      <a class="cat-photo-card reveal delay-1" href="https://wa.me/5524992886188?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20Rações." target="_blank" rel="noopener" aria-label="Ver produtos de Rações">
+        <div class="cat-photo-wrap">
+          <img src="assets/images/cat-racoes.png" alt="Rações para cães e gatos" loading="lazy" />
         </div>
-        <span class="cat-name">Equinos</span>
-      </div>
-      <div class="cat-card reveal" tabindex="0" role="button" aria-label="Bovinos">
-        <div class="cat-icon"><i data-lucide="beef"></i></div>
-        <span class="cat-name">Bovinos</span>
-      </div>
-      <div class="cat-card reveal delay-1" tabindex="0" role="button" aria-label="Suínos">
-        <div class="cat-icon">
-          <!-- Pig (custom, Lucide style) -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="13" rx="7" ry="5.5"/><circle cx="9.5" cy="11.5" r=".75" fill="currentColor" stroke="none"/><circle cx="14.5" cy="11.5" r=".75" fill="currentColor" stroke="none"/><ellipse cx="12" cy="14.5" rx="2" ry="1.25"/><circle cx="11.2" cy="14.5" r=".4" fill="currentColor" stroke="none"/><circle cx="12.8" cy="14.5" r=".4" fill="currentColor" stroke="none"/><path d="M5.5 11L4 9"/><path d="M18.5 11L20 9"/><path d="M8.5 18l-.5 3"/><path d="M15.5 18l.5 3"/><path d="M17.5 8.5c1 .5 2 1.5 2 3"/><path d="M6.5 8.5c-1 .5-2 1.5-2 3"/></svg>
+        <div class="cat-photo-overlay"></div>
+        <div class="cat-photo-content">
+          <span class="cat-photo-name">Rações</span>
+          <span class="cat-photo-cta">Ver produtos <i data-lucide="arrow-right" class="cat-arrow"></i></span>
         </div>
-        <span class="cat-name">Suínos</span>
-      </div>
-      <div class="cat-card reveal delay-2" tabindex="0" role="button" aria-label="Aves">
-        <div class="cat-icon"><i data-lucide="egg"></i></div>
-        <span class="cat-name">Aves</span>
-      </div>
+      </a>
+
+      <!-- 2. Pet Shop -->
+      <a class="cat-photo-card reveal delay-2" href="https://wa.me/5524992886188?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20produtos%20Pet%20Shop." target="_blank" rel="noopener" aria-label="Ver produtos de Pet Shop">
+        <div class="cat-photo-wrap">
+          <img src="assets/images/cat-petshop.png" alt="Acessórios e produtos para pets" loading="lazy" />
+        </div>
+        <div class="cat-photo-overlay"></div>
+        <div class="cat-photo-content">
+          <span class="cat-photo-name">Pet Shop</span>
+          <span class="cat-photo-cta">Ver produtos <i data-lucide="arrow-right" class="cat-arrow"></i></span>
+        </div>
+      </a>
+
+      <!-- 3. Medicamentos -->
+      <a class="cat-photo-card reveal delay-3" href="https://wa.me/5524992886188?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20Medicamentos%20Veterinários." target="_blank" rel="noopener" aria-label="Ver produtos de Medicamentos">
+        <div class="cat-photo-wrap">
+          <img src="assets/images/cat-medicamentos.png" alt="Medicamentos veterinários" loading="lazy" />
+        </div>
+        <div class="cat-photo-overlay"></div>
+        <div class="cat-photo-content">
+          <span class="cat-photo-name">Medicamentos</span>
+          <span class="cat-photo-cta">Ver produtos <i data-lucide="arrow-right" class="cat-arrow"></i></span>
+        </div>
+      </a>
+
+      <!-- 4. Jardinagem -->
+      <a class="cat-photo-card reveal delay-4" href="https://wa.me/5524992886188?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20produtos%20de%20Jardinagem." target="_blank" rel="noopener" aria-label="Ver produtos de Jardinagem">
+        <div class="cat-photo-wrap">
+          <img src="assets/images/cat-jardinagem.png" alt="Plantas, vasos e produtos de jardinagem" loading="lazy" />
+        </div>
+        <div class="cat-photo-overlay"></div>
+        <div class="cat-photo-content">
+          <span class="cat-photo-name">Jardinagem</span>
+          <span class="cat-photo-cta">Ver produtos <i data-lucide="arrow-right" class="cat-arrow"></i></span>
+        </div>
+      </a>
+
+      <!-- 5. Agropecuária -->
+      <a class="cat-photo-card reveal delay-5" href="https://wa.me/5524992886188?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20produtos%20Agropecuários." target="_blank" rel="noopener" aria-label="Ver produtos de Agropecuária">
+        <div class="cat-photo-wrap">
+          <img src="assets/images/cat-agropecuaria.png" alt="Produtos agropecuários e de campo" loading="lazy" />
+        </div>
+        <div class="cat-photo-overlay"></div>
+        <div class="cat-photo-content">
+          <span class="cat-photo-name">Agropecuária</span>
+          <span class="cat-photo-cta">Ver produtos <i data-lucide="arrow-right" class="cat-arrow"></i></span>
+        </div>
+      </a>
+
+      <!-- 6. Casa & Jardim -->
+      <a class="cat-photo-card reveal delay-6" href="https://wa.me/5524992886188?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20produtos%20para%20Casa%20e%20Jardim." target="_blank" rel="noopener" aria-label="Ver produtos de Casa e Jardim">
+        <div class="cat-photo-wrap">
+          <img src="assets/images/cat-casa-jardim.png" alt="Produtos para casa e jardim" loading="lazy" />
+        </div>
+        <div class="cat-photo-overlay"></div>
+        <div class="cat-photo-content">
+          <span class="cat-photo-name">Casa &amp; Jardim</span>
+          <span class="cat-photo-cta">Ver produtos <i data-lucide="arrow-right" class="cat-arrow"></i></span>
+        </div>
+      </a>
+
+      <!-- 7. Higiene & Cuidados -->
+      <a class="cat-photo-card reveal" href="https://wa.me/5524992886188?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20produtos%20de%20Higiene%20e%20Cuidados." target="_blank" rel="noopener" aria-label="Ver produtos de Higiene e Cuidados">
+        <div class="cat-photo-wrap">
+          <img src="assets/images/cat-higiene.png" alt="Produtos de higiene e cuidados para animais" loading="lazy" />
+        </div>
+        <div class="cat-photo-overlay"></div>
+        <div class="cat-photo-content">
+          <span class="cat-photo-name">Higiene &amp; Cuidados</span>
+          <span class="cat-photo-cta">Ver produtos <i data-lucide="arrow-right" class="cat-arrow"></i></span>
+        </div>
+      </a>
+
+      <!-- 8. Ferramentas & Utilidades -->
+      <a class="cat-photo-card reveal delay-1" href="https://wa.me/5524992886188?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20Ferramentas%20e%20Utilidades." target="_blank" rel="noopener" aria-label="Ver Ferramentas e Utilidades">
+        <div class="cat-photo-wrap">
+          <img src="assets/images/cat-ferramentas.png" alt="Ferramentas e produtos de utilidade" loading="lazy" />
+        </div>
+        <div class="cat-photo-overlay"></div>
+        <div class="cat-photo-content">
+          <span class="cat-photo-name">Ferramentas &amp; Utilidades</span>
+          <span class="cat-photo-cta">Ver produtos <i data-lucide="arrow-right" class="cat-arrow"></i></span>
+        </div>
+      </a>
+
     </div>
   </div>
 </section>
