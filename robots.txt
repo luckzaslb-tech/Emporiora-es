@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://emporioracoesps.com.br/sitemap.xml
